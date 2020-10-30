@@ -12,4 +12,8 @@ export class CategoryListComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  alert(){
+    window.alert('Deseja realmente excluir este item!')
+  }
+
 }
